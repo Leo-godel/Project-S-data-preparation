@@ -1,33 +1,35 @@
 # Project-S-data-preparation
-Data preparation for Project-S ( Astronomy Project)
+Data preparation for Project-S (Astronomy Project)
 
 ## Group member:
-Zheyu Lu  
-Rui Liu   
-Shuqi Xu   
+Zheyu Lu
+Rui Liu
+Shuqi Xu
 
 ## Data Format
-There are three datasets: 1_North_Europe.rar, 2_Brazil and 3_China.    
-These datasets are named after the location of the observer. For example, 3_China is the dataset that records information observed from a location in China.     
-Each dataset contains four file.   
-There is also a text file called raw_picture_data, which contains a link to the raw picture data we used to generate these information.     
+There are three datasets: 1_Berkeley.rar, 2_Shanghai.rar, and 3_Sydney.rar. In each of these compressed file, you will find four files: Moon.dat, Sun_A.dat, Sun_B.dat, and local_pos_on_earth.png.
+
+These datasets are named after the location of the observer. For example, 2_Shanghai contains data observed by an observer whose location is roughly at Shanghai, China. The exact longitude and latitude information of the observer can be found in local_pos_on_earth.png.
+
+There is also a text file called Raw_picture_data.txt, which contains a link to the raw picture data we used to generate these information.
 
 ### local_pos_on_earth
-The png file called local_pos_on_earth.png records the observation point on earth, including the latitude and longtitude.   
+The png file called local_pos_on_earth.png records the observation point on earth, including the latitude and longtitude.
 
-### SunA, SunB
-SunA.dat and SunB.dat records the observation information of SunA and SunB.    
+### Sun_A, Sun_B
+Sun_A.dat and Sun_B.dat contains the observation information of the two stars SunA and SunB in our binary star solar system.
 For each file, the record follows the format below:
-time direction_degree height_degree    
-     
-Time is the information recording the standard time (No time zone difference).   
-Direction_degree is the information about azimuth angle of Sun observed from the location.   
-height_degree is the information about altitude angle of Sun observed from the location.   
+Figure index, Time, Direction(azimuthal angle), Height(polar angle), Apparent size
 
-For time, the format is year month day hour min sec     
-For direction_degree and height_degree, the format is degree minute second
+1. Figure index indicates the corresponding figure for generating this line of data.
+2. Time is the absolute time in our fictional universe(No time zone difference).
+3. Direction is the azimuthal angle of the Sun observed from the given location in spherical coordinates.
+4. Height is the polar angle of the Sun observed from the given location in spherical coordinates.
+
+For Time, the format in the file is: year month day hour minute second
+For Direction, Height, and Apparent size, the format in the file is: degree minute second
 
 ### Moon
-The format is almost the same with SunA and SunB.    
-The only difference is there is an additional phase column, which is a number between 0 and 1, recording the moon phase.
+The format is the same as that of Sun_A.dat and Sun_B.dat except that there is an additional data column recording the phase of moon.
+The phase of moon should be a number between 0 and 1. However, due to the not high recognition rate of the Optical Character Recognition(OCR) package we are using, this column contains some invalid data.
 
