@@ -11,10 +11,10 @@ There are three datasets: 1_Berkeley.rar, 2_Shanghai.rar, and 3_Sydney.rar. In e
 
 These datasets are named after the location of the observer. For example, 2_Shanghai contains data observed by an observer whose location is roughly at Shanghai, China. The exact longitude and latitude information of the observer can be found in local_pos_on_earth.png.
 
-There is also a text file called Raw_picture_data.txt, which contains a link to the raw picture data we used to generate these information.
+There is also a text file called Raw_picture_data.txt, which contains a Google Drive link. In the Google Drive, the New Data.rar contains all the raw picture data we used to generate the above mentioned information; The binary_star_simulation.nb is the mathematica file used to directly simulate our binary star solar system; The double_sun_simulation_01au_ellip.csv contains the orbital data of the mathematica simulation.
 
 ### local_pos_on_earth
-The png file called local_pos_on_earth.png records the observation point on earth, including the latitude and longtitude.
+The local_pos_on_earth.png file contains the information of the observer's location on earth, including the latitude and longtitude.
 
 ### Sun_A, Sun_B
 Sun_A.dat and Sun_B.dat contains the observation information of the two stars SunA and SunB in our binary star solar system.
