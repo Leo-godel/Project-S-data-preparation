@@ -26,8 +26,8 @@ Figure index, Time, Direction(azimuthal angle), Height(polar angle), Apparent si
 3. Direction is the azimuthal angle of the Sun observed from the given location in spherical coordinates.
 4. Height is the polar angle of the Sun observed from the given location in spherical coordinates.
 
-For Time, the format in the file is: year month day hour minute second
-For Direction, Height, and Apparent size, the format in the file is: degree minute second
+For Time, the format in the file is: year month day hour minute second   
+For Direction, Height, and Apparent size, the format in the file is: degree minute second   
 
 ### Moon
 The format is the same as that of Sun_A.dat and Sun_B.dat except that there is an additional data column recording the phase of moon.
