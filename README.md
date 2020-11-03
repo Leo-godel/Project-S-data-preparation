@@ -2,9 +2,9 @@
 Data preparation for Project-S (Astronomy Project)
 
 ## Group member
-Zheyu Lu
-Rui Liu
-Shuqi Xu
+Zheyu Lu   
+Rui Liu   
+Shuqi Xu   
 
 ## Data Format
 There are three datasets: 1_Berkeley.rar, 2_Shanghai.rar, and 3_Sydney.rar. In each of these compressed file, you will find four files: Moon.dat, Sun_A.dat, Sun_B.dat, and local_pos_on_earth.png.
