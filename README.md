@@ -1,7 +1,7 @@
 # Project-S-data-preparation
 Data preparation for Project-S (Astronomy Project)
 
-## Group member:
+## Group member
 Zheyu Lu
 Rui Liu
 Shuqi Xu
@@ -33,3 +33,11 @@ For Direction, Height, and Apparent size, the format in the file is: degree minu
 The format is the same as that of Sun_A.dat and Sun_B.dat except that there is an additional data column recording the phase of moon.
 The phase of moon should be a number between 0 and 1. However, due to the not high recognition rate of the Optical Character Recognition(OCR) package we are using, this column contains some invalid data.
 
+## How to generate the data
+In order to generate the data, one needs to follow the following steps:
+1. Download the New Data.rar from the Google Drive link in the Raw_picture_data.txt under the data folder on Github.
+2. Unzip the New Data.rar file and there will be three folders: 1_Berkeley, 2_Shanghai, and 3_Sydney. In each of these three folders, there will be three subfolders: Moon, Sun A, and Sun B.
+3. Copy the three ipynb files Moon.ipynb, Sun A.ipynb, and Sun B.ipynb to all three folders mentioned in step 2. The ipynb files can be found under code folder on Github.
+4. In 1_Berkeley folder, run Moon.ipynb, Sun A.ipynb, and Sun B.ipynb and you will get the Moon.dat, Sun_A.dat, and Sun_B.dat data files corresponding to the observation at Berkeley. (Notice: this may take an hour to complete running on a gaming laptop!)
+5. In 2_Shanghai folder, run Moon.ipynb, Sun A.ipynb, and Sun B.ipynb and you will get the Moon.dat, Sun_A.dat, and Sun_B.dat data files corresponding to the observation at Shanghai. (Notice: this may take an hour to complete running on a gaming laptop!)
+6. In 3_Sydney folder, run Moon.ipynb, Sun A.ipynb, and Sun B.ipynb and you will get the Moon.dat, Sun_A.dat, and Sun_B.dat data files corresponding to the observation at Sydney. (Notice: this may take an hour to complete running on a gaming laptop!)
