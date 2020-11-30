@@ -1,4 +1,4 @@
-# index year month day hour minute seconad azi_deg azi_min azi_sec pol_deg pol_min pol_sec size_deg size_min size_sec phase
+index, year, month, day, hour, minute, seconad, azi_deg, azi_min, azi_sec, pol_deg, pol_min, pol_sec, size_deg, size_min, size_sec, phase
 0 0 1 1 16 23 24.52 86 12 48.86 9 51 2.23 0 29 34.17 0.997
 1 0 1 2 0 43 24.52 -148 7 40.60 -46 10 42.71 0 29 10.82 0.991
 2 0 1 2 9 3 24.52 -50 46 3.66 39 1 44.50 0 29 50.33 0.983
